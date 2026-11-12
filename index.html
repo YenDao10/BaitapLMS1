@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5fbfa">
+  <meta name="description" content="Dược sĩ Đào Ngọc Hoàng Yến tư vấn sử dụng thuốc, canxi, vitamin và chăm sóc sức khỏe gia đình. Ưu đãi 20/11 tri ân thầy cô, tư vấn miễn phí qua Zalo và hotline.">
+  <meta name="keywords" content="dược sĩ tư vấn, tư vấn sử dụng thuốc, canxi cho người cao tuổi, vitamin cho mắt, vitamin tổng hợp, quà sức khỏe thầy cô, tư vấn thực phẩm chức năng">
+  <meta property="og:title" content="YenPharma | Dược sĩ Đào Ngọc Hoàng Yến">
+  <meta property="og:description" content="Tri ân người lái đò – Tặng sức khỏe, gửi lời biết ơn nhân ngày Nhà giáo Việt Nam 20/11.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  <title>YenPharma | Dược sĩ Đào Ngọc Hoàng Yến  - Tri ân 20/11</title>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"MedicalOrganization",
+    "name":"YenPharma - Dược sĩ Đào Ngọc Hoàng Yến",
+    "description":"Tư vấn sử dụng thuốc, dinh dưỡng và chăm sóc sức khỏe cá nhân.",
+    "telephone":"+84976143411",
+    "email":"contact@yenpharma.vn",
+    "slogan":"Tận tâm vì sức khỏe cộng đồng",
+    "address":{"@type":"PostalAddress","streetAddress":"929 Trần Hưng Đạo, Phường Chợ Quán","addressLocality":"Thành phố Hồ Chí Minh","addressCountry":"VN"},
+    "employee":{"@type":"Person","name":"Đào Ngọc Hoàng Yến","jobTitle":"Dược sĩ"}
+  }
+  </script>
+  <style>
+    :root{--ink:#173d49;--muted:#6d8589;--teal:#148c88;--teal-dark:#087574;--mint:#e9f6f3;--line:#e4eeeb;--paper:#fff;--cream:#f7faf8;--gold:#e6b96c}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:82px}
+    body{margin:0;color:var(--ink);font-family:"Be Vietnam Pro",Inter,Roboto,"Segoe UI",Arial,sans-serif;background:var(--paper);line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    button,input,select,textarea{font:inherit}
+    button,a{ -webkit-tap-highlight-color:transparent}
+    .wrap{width:min(1120px,calc(100% - 44px));margin:auto}
+    .top{background:#123d4c;color:#d5eae8;font-size:12px;padding:8px 0}
+    .top .wrap,.nav,.nav-links,.nav-actions,.hero-actions,.trust,.section-head,.product-tools,.card-foot,.contact-row,.footer-row{display:flex;align-items:center;justify-content:space-between}
+    .top a{color:white;font-weight:700}
+    header{position:sticky;top:0;z-index:10;background:#ffffffed;backdrop-filter:blur(14px);border-bottom:1px solid #e8f0ed}
+    .nav{height:74px;gap:24px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.7px;font-size:21px}
+    .brand-mark{display:grid;place-items:center;position:relative;width:39px;height:39px;border-radius:13px;background:var(--teal);color:white;font-size:22px}
+    .brand-mark i{position:absolute;right:-3px;top:-7px;color:var(--gold);font-size:20px;font-style:normal}
+    .brand small{display:block;color:#809498;font-size:8px;letter-spacing:1.15px;margin-top:-3px}
+    .brand span:last-child>span{color:var(--teal)}
+    .nav-links{gap:25px;font-size:13px;color:#49646a}
+    .nav-links a:hover,.text-link:hover{color:var(--teal)}
+    .nav-actions{gap:12px}
+    .button{border:0;border-radius:7px;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 18px;font-size:13px;font-weight:700;cursor:pointer;transition:.2s}
+    .button:hover{transform:translateY(-2px)}
+    .primary{color:white;background:var(--teal);box-shadow:0 7px 18px #138b882b}
+    .primary:hover{background:var(--teal-dark)}
+    .outline{border:1px solid #cfe0dd;color:var(--ink);background:#fff}
+    .cart-button{border:0;background:#eff7f5;color:var(--ink);border-radius:8px;padding:10px 12px;cursor:pointer;display:flex;gap:8px;align-items:center;font-size:13px}
+    .cart-count{background:var(--teal);color:white;font-size:10px;display:grid;place-items:center;min-width:19px;height:19px;border-radius:20px}
+    .menu-toggle{display:none;border:0;background:none;color:var(--ink);font-size:23px}
+    .hero{position:relative;overflow:hidden;background:linear-gradient(112deg,#f3faf8 0%,#f7fbfa 55%,#eaf6f3 100%);padding:75px 0 0}
+    .hero:after{content:"";position:absolute;right:-160px;top:-260px;width:650px;height:650px;border:1px solid #d5e9e4;border-radius:50%;box-shadow:0 0 0 50px #e6f3ef66,0 0 0 100px #e6f3ef55;pointer-events:none}
+    .hero-grid{position:absolute;inset:0;background-image:radial-gradient(#9fcac2 0.7px,transparent .7px);background-size:22px 22px;opacity:.22;mask-image:linear-gradient(90deg,black,transparent 65%)}
+    .hero-layout{position:relative;z-index:1;display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:50px;min-height:475px}
+    .eyebrow{display:flex;align-items:center;gap:9px;color:var(--teal);font-size:10px;font-weight:800;letter-spacing:1.5px}
+    .dot{width:7px;height:7px;background:#d9ad5e;border-radius:50%}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-size:clamp(39px,5vw,62px);letter-spacing:-2.7px;line-height:1.09;margin:21px 0 18px;font-weight:760}
+    h1 em,h2 em{font-family:Georgia,serif;color:var(--teal);font-weight:500}
+    .lead{max-width:510px;color:#61797c;font-size:16px;line-height:1.8}
+    .person{display:flex;align-items:center;gap:11px;margin:26px 0}
+    .avatar{width:43px;height:43px;border-radius:50%;display:grid;place-items:center;background:#d7eeea;color:var(--teal-dark);font-weight:800}
+    .person strong,.person small{display:block}
+    .person strong{font-size:13px}
+    .person small{font-size:11px;color:var(--muted)}
+    .person .verified{color:var(--teal);font-size:19px;margin-left:4px}
+    .hero-actions{justify-content:flex-start;gap:10px}
+    .hero-phone{margin-top:22px;color:#708588;font-size:12px;display:flex;gap:8px;align-items:center}
+    .hero-phone b{color:var(--ink)}
+    .pulse{width:8px;height:8px;border-radius:50%;background:#32aa81;box-shadow:0 0 0 4px #dff3ea}
+    .hero-visual{height:450px;position:relative;display:grid;place-items:center}
+    .portrait{position:relative;width:300px;height:345px;border-radius:150px 150px 30px 30px;background:linear-gradient(145deg,#d9eee8,#bdded7);overflow:hidden;box-shadow:0 28px 60px #306f6830}
+    .portrait:before{content:"";position:absolute;top:47px;left:92px;width:119px;height:139px;border-radius:53% 53% 46% 46%;background:#e8b99a;z-index:2}
+    .hair{position:absolute;z-index:3;top:32px;left:77px;width:146px;height:156px;border-radius:55% 52% 43% 42%;background:#263e3e;clip-path:polygon(5% 10%,50% 0,95% 10%,100% 72%,82% 55%,80% 34%,48% 42%,20% 34%,17% 72%,0 84%)}
+    .neck{position:absolute;z-index:2;top:164px;left:126px;width:54px;height:59px;background:#dfa989}
+    .coat{position:absolute;z-index:4;bottom:-48px;left:33px;width:237px;height:204px;background:#fff;border-radius:90px 90px 0 0;box-shadow:inset 0 8px #f4fbf9}
+    .coat:before,.coat:after{content:"";position:absolute;top:0;border-style:solid}
+    .coat:before{left:77px;border-width:0 39px 71px 0;border-color:transparent #e5f1ee transparent transparent}
+    .coat:after{right:77px;border-width:0 0 71px 39px;border-color:transparent transparent transparent #e5f1ee}
+    .coat-pocket{position:absolute;top:85px;right:35px;border:1px solid #d9e8e4;color:var(--teal);font-size:11px;padding:7px;border-radius:5px}
+    .stethoscope{position:absolute;top:65px;left:79px;width:44px;height:72px;border:2px solid #74aaa1;border-top:0;border-radius:0 0 22px 22px}
+    .stethoscope:after{content:"";position:absolute;bottom:-8px;right:-8px;width:11px;height:11px;border:2px solid #74aaa1;border-radius:50%;background:white}
+    .face-eye{position:absolute;top:108px;z-index:4;width:5px;height:5px;border-radius:50%;background:#384343}
+    .eye-l{left:126px}.eye-r{left:170px}
+    .smile{position:absolute;top:143px;left:139px;z-index:4;width:25px;height:10px;border-bottom:2px solid #ae6259;border-radius:0 0 50% 50%}
+    .portrait-label{position:absolute;z-index:5;bottom:20px;left:17px;background:#fffffff2;border:1px solid #e4efeb;border-radius:8px;padding:9px 13px;display:flex;gap:10px;align-items:center;box-shadow:0 10px 25px #234d4017}
+    .portrait-label i{font-style:normal;width:27px;height:27px;border-radius:8px;background:var(--teal);color:#fff;display:grid;place-items:center;font-weight:800}
+    .portrait-label b,.portrait-label small{display:block}
+    .portrait-label b{font-size:11px}.portrait-label small{font-size:9px;color:var(--muted)}
+    .float-card{position:absolute;z-index:6;background:white;box-shadow:0 12px 32px #244e4517;border:1px solid #e9f1ee;border-radius:9px;padding:12px 14px}
+    .float-card b,.float-card small{display:block}.float-card b{font-size:11px}.float-card small{font-size:9px;color:var(--muted)}
+    .float-one{left:0;top:97px}.float-two{right:-2px;bottom:85px}
+    .stars{color:#d8aa59;font-size:12px;letter-spacing:2px}
+    .trust{padding:21px 0;border-bottom:1px solid var(--line);gap:20px}
+    .trust-item{display:flex;align-items:center;gap:11px}
+    .trust-item i{font-style:normal;color:var(--teal);font-size:19px}
+    .trust-item b,.trust-item small{display:block}.trust-item b{font-size:11px}.trust-item small{font-size:10px;color:var(--muted)}
+    .section{padding:90px 0}
+    .about{display:grid;grid-template-columns:.86fr 1.14fr;gap:88px;align-items:center}
+    .about-visual{min-height:435px;position:relative;background:linear-gradient(145deg,#e4f2ee,#f6f9f6);border-radius:15px;overflow:hidden;display:grid;place-items:center}
+    .about-visual:before{content:"";width:300px;height:300px;border:1px solid #cbded8;border-radius:50%;box-shadow:0 0 0 35px #d9e9e355,0 0 0 70px #d9e9e333}
+    .about-initial{position:absolute;font-family:Georgia,serif;font-size:340px;line-height:1;color:#c7e0da;top:15px;left:50%;transform:translateX(-50%)}
+    .about-stamp{position:absolute;left:25px;top:25px;background:white;border-radius:50%;width:85px;height:85px;display:grid;place-items:center;text-align:center;box-shadow:0 7px 22px #264f4011}
+    .about-stamp b{color:var(--teal);font-size:17px}.about-stamp small{font-size:7px;line-height:1.1;letter-spacing:1px}
+    .about-quote{position:absolute;bottom:20px;left:20px;right:20px;background:#ffffffed;padding:17px 20px;border-radius:8px;font-family:Georgia,serif;font-size:16px;color:#406167}
+    h2{font-size:clamp(30px,3.8vw,43px);line-height:1.16;letter-spacing:-1.6px;margin:16px 0}
+    .section-lead{font-size:14px;color:var(--muted);max-width:560px;line-height:1.8}
+    .credentials{display:grid;gap:13px;margin:26px 0}
+    .credential{display:flex;align-items:center;gap:13px}
+    .credential-icon{width:34px;height:34px;border-radius:10px;background:#e8f5f2;color:var(--teal);display:grid;place-items:center}
+    .credential-icon b{font-size:15px}
+    .credential strong,.credential small{display:block}.credential strong{font-size:12px}.credential small{font-size:10px;color:var(--muted)}
+    .text-link{color:var(--teal-dark);font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:8px}
+    .services-section,.journal-section,.faq-section{background:#f7faf9}
+    .center{text-align:center}.center .eyebrow{justify-content:center}.center .section-lead{margin:0 auto}
+    .service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:35px}
+    .service-card{border:1px solid #e4eeeb;background:white;border-radius:10px;padding:23px 20px;min-height:218px;position:relative;transition:.2s}
+    .service-card:hover,.product-card:hover{transform:translateY(-4px);box-shadow:0 14px 28px #315b4e12}
+    .service-top{display:flex;justify-content:space-between;align-items:center}
+    .service-icon{width:39px;height:39px;background:#eaf6f3;border-radius:11px;display:grid;place-items:center;color:var(--teal)}
+    .service-number{font-size:11px;color:#aabbb7}
+    .service-card h3{font-size:15px;margin:19px 0 8px}
+    .service-card p{font-size:11px;color:var(--muted);line-height:1.7;margin-bottom:0}
+    .service-card>a{position:absolute;right:18px;bottom:15px;color:var(--teal)}
+    .disclaimer,.article-note{text-align:center;font-size:10px;color:#8ba09e;margin:22px 0 0}
+    .products{padding:84px 0}
+    .section-head{align-items:end}
+    .section-head>p{max-width:350px;color:var(--muted);font-size:12px}
+    .product-tools{margin:23px 0 18px;gap:15px}
+    .filters{display:flex;gap:7px;flex-wrap:wrap}
+    .filter{border:1px solid #e3ece8;background:white;padding:8px 12px;border-radius:30px;font-size:10px;color:#637c7c;cursor:pointer}
+    .filter.active{background:var(--ink);border-color:var(--ink);color:white}
+    .search{display:flex;align-items:center;gap:8px;border:1px solid #e3ece8;padding:8px 11px;border-radius:6px;color:#78908d;background:white}
+    .search input{border:0;outline:0;width:150px;font-size:11px}
+    .product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .product-card{border:1px solid #e8efed;border-radius:9px;overflow:hidden;transition:.2s;background:white}
+    .product-art{height:183px;display:grid;place-items:center;position:relative;background:#eff7f3}
+    .product-art:nth-child(4n+2){background:#f7f2e9}.product-art:nth-child(4n+3){background:#eef3f8}.product-art:nth-child(4n+4){background:#f7eff0}
+    .product-tag{position:absolute;left:12px;top:12px;background:#ffffffd9;border-radius:3px;padding:5px 7px;font-size:8px;letter-spacing:.5px;color:#688480}
+    .product-symbol{width:82px;height:82px;border-radius:50%;display:grid;place-items:center;background:#d8ece6;color:#138c84;font-size:42px;font-weight:300;box-shadow:0 9px 20px #316b5b13}
+    .product-symbol.bottle{width:55px;height:87px;border-radius:13px 13px 9px 9px;background:linear-gradient(90deg,#d3e6dc,#f9fff9 32%,#e6f2eb);position:relative;font-size:26px}
+    .product-symbol.bottle:before{content:"";position:absolute;top:-9px;width:22px;height:12px;background:#7daaa1;border-radius:4px 4px 0 0}
+    .product-symbol.device{border-radius:16px;width:77px;height:91px;background:linear-gradient(140deg,#fff,#d5e3e4);font-size:12px;box-shadow:0 12px 20px #315b4e24}
+    .product-symbol.omega{font-family:Georgia,serif;font-style:italic}
+    .product-info{padding:13px}
+    .product-category{font-size:9px;color:var(--teal);font-weight:700}
+    .product-info h3{font-size:13px;margin:4px 0}
+    .product-info p{font-size:10px;color:var(--muted);min-height:31px;margin:0}
+    .card-foot{margin-top:13px}
+    .price strong,.price del{display:block}.price strong{font-size:13px}.price del{font-size:9px;color:#9daead}
+    .add{border:0;background:#e9f5f2;color:var(--teal);width:32px;height:32px;border-radius:7px;display:grid;place-items:center;font-size:20px;cursor:pointer}
+    .add:hover{background:var(--teal);color:white}
+    .shop-note{display:flex;align-items:center;justify-content:center;gap:8px;color:#748a89;font-size:10px;margin-top:23px}
+    .consult{background:#123f4e;color:white;position:relative;overflow:hidden;padding:74px 0}
+    .consult:before,.consult:after{content:"";position:absolute;border:1px solid #39717a;border-radius:50%;width:490px;height:490px;right:-145px;top:-300px;box-shadow:0 0 0 40px #1a4b5866,0 0 0 80px #1a4b5844}
+    .consult-layout{position:relative;z-index:1;display:grid;grid-template-columns:1fr .8fr;align-items:center;gap:70px}
+    .eyebrow-light{color:#8ed2c7}
+    .consult h2,.contact h2{font-size:42px}.consult h2 em,.contact h2 em{color:#80c8bd}
+    .consult-copy>p,.contact-copy>p{color:#c1d5d5;font-size:13px;max-width:480px}
+    .consult-points{display:grid;gap:10px;margin-top:22px;color:#e0efed;font-size:11px}
+    .consult-points span{display:flex;align-items:center;gap:8px}.consult-points i{color:#80c8bd}
+    .booking{background:white;color:var(--ink);padding:24px;border-radius:11px;box-shadow:0 15px 40px #092a342c}
+    .booking-head{display:flex;align-items:center;gap:11px;margin-bottom:18px}
+    .booking-icon{width:39px;height:39px;border-radius:10px;display:grid;place-items:center;background:#e8f5f1;color:var(--teal);font-size:19px}
+    .booking-head strong,.booking-head small{display:block}.booking-head strong{font-size:14px}.booking-head small{font-size:10px;color:var(--muted)}
+    label{display:block;font-size:10px;font-weight:700;color:#536c6d;margin:0 0 12px}
+    input,select,textarea{width:100%;margin-top:5px;border:1px solid #e1ebe7;background:white;color:var(--ink);padding:10px 11px;border-radius:5px;outline:none;font-size:11px}
+    input:focus,select:focus,textarea:focus{border-color:#67b7ab;box-shadow:0 0 0 3px #e1f3ef}
+    textarea{resize:vertical}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .booking .button{width:100%;margin-top:4px}
+    .privacy{font-size:9px;color:#839492;display:flex;align-items:center;gap:6px;justify-content:center;margin-top:12px}
+    .journal-head{align-items:end}
+    .article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin-top:25px}
+    .article{border:1px solid #e5eeea;background:white;border-radius:9px;overflow:hidden}
+    .article-art{height:175px;position:relative;display:grid;place-items:center;background:linear-gradient(130deg,#dff0e9,#eef7f2)}
+    .article:nth-child(2) .article-art{background:linear-gradient(130deg,#f5ebd9,#fbf5e9)}
+    .article:nth-child(3) .article-art{background:linear-gradient(130deg,#e3edf5,#f1f5f7)}
+    .article-art:before{content:"";width:98px;height:98px;border-radius:50%;border:1px solid #a6cfc2;box-shadow:0 0 0 16px #cce5dd99,0 0 0 32px #d7ebe499}
+    .article-num{position:absolute;font-family:Georgia,serif;color:#fff;font-size:51px}
+    .article-type{position:absolute;bottom:13px;left:14px;color:#506f69;font-size:9px;font-weight:700;letter-spacing:1px}
+    .article-body{padding:15px}
+    .article-category{font-size:8px;letter-spacing:1px;color:var(--teal);font-weight:800}
+    .article-body h3{font-size:15px;line-height:1.45;margin:7px 0 14px}
+    .article-meta{font-size:9px;color:#879a99;display:flex;gap:8px;align-items:center}
+    .article-meta i{width:3px;height:3px;background:#91aaa4;border-radius:50%}
+    .reviews{display:grid;grid-template-columns:.7fr 1.1fr 1fr;gap:18px;align-items:center}
+    .reviews-title p{font-size:12px;color:var(--muted)}
+    .review-card{background:#f4f9f7;border-radius:10px;padding:26px;position:relative}
+    .quote{font-family:Georgia,serif;font-size:52px;color:#bdddd4;line-height:.7}
+    .review-stars{color:#d9ad5e;letter-spacing:2px;font-size:12px;margin:12px 0}
+    blockquote{margin:0 0 20px;font-family:Georgia,serif;color:#365b60;font-size:16px;line-height:1.7}
+    .review-author{display:flex;align-items:center;gap:9px;font-size:11px}
+    .review-author strong,.review-author small{display:block}.review-author small{color:var(--muted);font-size:9px}
+    .review-avatar{width:31px;height:31px;border-radius:50%;background:#dcece7;color:var(--teal);display:grid;place-items:center;font-weight:700}
+    .review-mini{padding:20px;background:#fff;border:1px solid var(--line);margin-top:16px}
+    .review-mini blockquote{font-size:13px}
+    .faq-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:80px}
+    .faq-list{border-top:1px solid #dce8e4}
+    .faq-item{border-bottom:1px solid #dce8e4}
+    .faq-question{width:100%;border:0;background:none;padding:17px 0;display:flex;align-items:center;justify-content:space-between;text-align:left;color:var(--ink);font-weight:700;font-size:12px;cursor:pointer}
+    .faq-question span{display:flex;gap:15px}.faq-question i{font-style:normal;color:#98adaa;font-size:10px}
+    .faq-answer{color:#718785;font-size:11px;line-height:1.8;margin:0;padding:0 28px 17px}
+    .contact{background:linear-gradient(135deg,#123f4e,#103744);color:white;padding:76px 0}
+    .contact-layout{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:clamp(30px,5vw,68px);align-items:center}
+    .contact-copy,.contact-links,.contact-link,.map{min-width:0}
+    .contact-copy>p{max-width:430px;line-height:1.9}
+    .contact-links{display:grid;grid-template-columns:minmax(0,1fr);gap:11px;margin-top:25px}
+    .contact-link{min-height:68px;border:1px solid #ffffff24;background:#ffffff08;border-radius:10px;padding:12px 15px;display:flex;align-items:center;gap:13px;transition:background .2s,border-color .2s,transform .2s}
+    .contact-link:hover{background:#ffffff12;border-color:#8ed2c755;transform:translateY(-2px)}
+    .contact-link .contact-icon{width:38px;height:38px;flex:0 0 38px;border-radius:10px;background:#ffffff10;display:grid;place-items:center;color:#8ed2c7;font-size:16px}
+    .contact-link small{display:block;color:#9dbdbc;font-size:9px;letter-spacing:1px;margin-bottom:2px}
+    .contact-link b{display:block;min-width:0;color:#fff;font-size:13px;font-weight:600;line-height:1.55;overflow-wrap:anywhere}
+    .contact-link>span:last-child{flex:0 0 auto;margin-left:auto;color:#8ed2c7;font-size:15px}
+    .map{height:320px;border:1px solid #ffffff25;border-radius:15px;overflow:hidden;background-color:#e9f2eb;position:relative;isolation:isolate;background-image:linear-gradient(0deg,#d8e8dc 1px,transparent 1px),linear-gradient(90deg,#d8e8dc 1px,transparent 1px),radial-gradient(ellipse at 18% 24%,#d4e8d2 0 10%,transparent 10.5%),radial-gradient(ellipse at 82% 70%,#d4e8d2 0 13%,transparent 13.5%);background-size:42px 42px,42px 42px,100% 100%,100% 100%;box-shadow:0 18px 38px #082a3630}
+    .map:before{content:"";position:absolute;z-index:-1;left:-18%;top:38%;width:136%;height:36px;border:7px solid #d1e4d8;background:#fff;transform:rotate(-17deg);box-shadow:0 48px 0 -12px #fff,0 48px 0 -5px #d1e4d8}
+    .map:after{content:"";position:absolute;z-index:-1;right:9%;top:14%;width:55px;height:55px;border-radius:50%;background:#c9e2cb;box-shadow:-255px 115px 0 16px #d5e8d4}
+    .map-pin{position:absolute;left:50%;top:39%;width:46px;height:46px;background:#138e87;border:4px solid #ffffff;border-radius:50% 50% 50% 4px;transform:translate(-50%,-50%) rotate(-45deg);display:grid;place-items:center;box-shadow:0 8px 20px #18494135}
+    .map-pin b{color:white;transform:rotate(45deg);font-size:13px}
+    .map-label{position:absolute;left:calc(50% + 33px);top:calc(39% - 19px);background:white;border-radius:7px;padding:9px 12px;box-shadow:0 5px 16px #194c3c20;font-size:10px}
+    .map-label small{display:block;color:var(--muted);font-size:8px}
+    .map-address{position:absolute;left:15px;right:15px;bottom:14px;background:white;border-radius:6px;padding:10px 12px;color:var(--ink);display:flex;justify-content:space-between;align-items:center;font-size:10px}
+    .map-address small{display:block;color:var(--muted)}
+    .map-address b{font-size:10px}.direction{color:var(--teal);font-weight:700}
+    footer{position:relative;overflow:hidden;background:radial-gradient(ellipse at 12% 0%,#1d5660 0,transparent 38%),linear-gradient(135deg,#102f3c,#0d3744 62%,#123d49);color:#d5e5e3}
+    .footer-main{position:relative;z-index:1;padding:58px 0 43px;display:grid;grid-template-columns:1.35fr .8fr .95fr 1.2fr;gap:clamp(24px,4vw,60px)}
+    .footer-brand{color:white}
+    .footer-brand .brand-mark{background:#188f88}
+    .footer-about{font-size:12px;color:#b2c9c6;max-width:330px;margin:18px 0;line-height:1.9}
+    .footer-tagline{display:flex;align-items:center;gap:8px;color:#9dd7cc;font-size:11px;font-weight:600}
+    .footer-tagline i{width:24px;height:1px;background:#caa65a}
+    .footer-social{display:flex;gap:9px;margin-top:18px}
+    .footer-social a{min-width:37px;height:37px;border:1px solid #47707a;color:#e5f1ef;padding:0 12px;border-radius:8px;font-size:11px;display:grid;place-items:center;transition:.2s}
+    .footer-social a:hover{background:#ffffff18;border-color:#82cfc1}
+    .footer-col{display:grid;align-content:start;gap:12px;font-size:12px}
+    .footer-col strong{font-size:10px;color:#93d0c3;letter-spacing:1.15px;margin-bottom:8px}
+    .footer-col a,.footer-col button,.footer-col span{color:#c3d6d3;line-height:1.7;transition:color .2s}
+    .footer-col a:hover,.footer-col button:hover{color:white}
+    .footer-col button{border:0;padding:0;background:none;text-align:left;cursor:pointer}
+    .footer-contact-card{padding:17px;border:1px solid #ffffff24;background:#ffffff0b;border-radius:12px}
+    .footer-contact-card .footer-col{gap:13px}
+    .footer-contact-link{display:flex;align-items:flex-start;gap:10px}
+    .footer-contact-icon{width:30px;height:30px;flex:0 0 30px;display:grid;place-items:center;background:#ffffff12;border-radius:8px;color:#9cdbce}
+    .footer-contact-link small,.footer-contact-link b{display:block}
+    .footer-contact-link small{margin-bottom:2px;color:#8db1af;font-size:9px;letter-spacing:.7px}
+    .footer-contact-link b{font-size:11px;font-weight:600;overflow-wrap:anywhere}
+    .footer-directions{display:inline-flex!important;align-items:center;gap:5px;color:#9cdbce!important;font-weight:700}
+    .footer-cta{margin-top:5px;padding:10px 12px;border-radius:7px;background:#168d85;color:white!important;text-align:center;font-size:11px;font-weight:700}
+    .footer-cta:hover{background:#22a49a}
+    .footer-bottom{position:relative;z-index:1;border-top:1px solid #ffffff20;padding:19px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:10px;color:#a5bfbc}
+    .footer-bottom-links{display:flex;gap:17px}
+    .footer-bottom-links a{color:#b9cfcd}
+    .footer-bottom-links a:hover{color:white}
+    .medical-footer{position:relative;z-index:1;text-align:center;padding:14px 20px;background:#092a35a8;font-size:10px;color:#a9bfbc;line-height:1.7}
+    .photo-hero{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 36%}
+    .hero-visual{border-radius:24px}
+    .hero-visual:after{content:"";position:absolute;inset:0;border-radius:24px;background:linear-gradient(180deg,#0c283411 35%,#123b4e8c)}
+    .portrait{display:none}
+    .hero-visual .float-card{z-index:2}
+    .float-one{top:auto;bottom:30px;left:25px}
+    .float-two{bottom:30px;right:25px}
+    .hero-photo-caption{position:absolute;z-index:2;left:25px;top:24px;padding:8px 12px;border:1px solid #ffffff80;border-radius:99px;background:#f9ffffe8;color:var(--ink);font-size:10px;font-weight:700}
+    .about-visual{background:linear-gradient(#173c4b14,#173c4b24),url("https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=85") center/cover}
+    .about-visual:before,.about-initial{display:none}
+    .about-quote{background:#ffffffed;font-family:"Be Vietnam Pro",sans-serif;font-size:13px}
+    .about-stamp{z-index:1}
+    .credentials{display:grid}
+    .customer-count{display:grid;grid-template-columns:auto 1fr;align-items:baseline;column-gap:5px;margin-top:22px}
+    .customer-count b{font-size:25px;color:var(--teal)}
+    .customer-count span{font-size:11px;font-weight:700;color:var(--ink)}
+    .customer-count small{grid-column:1/3;font-size:8px;color:#879996}
+    .campaign{position:relative;overflow:hidden;padding:70px 0;background:linear-gradient(116deg,#f8f4e9,#fffdf7 55%,#e9f5f2)}
+    .campaign:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#fffcf4 0%,#fffcf4ec 45%,#fffcf480 70%,#102b3c2b 100%),url("https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1800&q=85") center/cover}
+    .campaign-wrap{position:relative;z-index:1}
+    .campaign-head{max-width:660px}
+    .campaign-kicker{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:99px;background:#f2e7c9;color:#8a6621;font-size:10px;font-weight:800;letter-spacing:1px}
+    .campaign h2{font-size:clamp(34px,4.7vw,55px);max-width:650px;margin:17px 0;color:#163f4b}
+    .campaign h2 em{color:#a67a24}
+    .campaign-lead{max-width:510px;color:#5e7474;font-size:14px}
+    .campaign-offer{display:flex;align-items:center;gap:13px;margin:20px 0}
+    .discount-badge{background:#a97b25;color:#fff;padding:9px 13px;border-radius:8px;font-size:19px;font-weight:800}
+    .campaign-offer b,.campaign-offer small{display:block}.campaign-offer b{font-size:13px}.campaign-offer small{color:#748683;font-size:10px}
+    .countdown{display:flex;gap:8px;margin:17px 0 23px}
+    .time-box{min-width:58px;padding:9px 10px;text-align:center;border:1px solid #e6deca;background:#ffffffd9;border-radius:8px}
+    .time-box b,.time-box small{display:block}.time-box b{color:#123f4e;font-size:20px;line-height:1.2}.time-box small{font-size:8px;color:#7a8883;text-transform:uppercase}
+    .campaign-actions{display:flex;gap:10px;flex-wrap:wrap}
+    .campaign-music{border:1px solid #d8c99e;background:#fffdf6;color:#745617}
+    .campaign-music[aria-pressed="true"]{background:#f6edcf}
+    .button-gold{background:#aa7a22;color:white}
+    .campaign-products{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:30px;max-width:850px}
+    .campaign-chip{padding:12px;border:1px solid #e9e1d1;background:#ffffffdb;border-radius:9px;color:#274951;font-size:10px}
+    .campaign-chip b,.campaign-chip small{display:block}.campaign-chip b{font-size:11px}.campaign-chip small{color:#778984;margin-top:3px}
+    .campaign-note{font-size:9px;color:#758580;margin:13px 0 0}
+    .product-art{overflow:hidden}
+    .product-art>img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .35s}
+    .product-card:hover .product-art>img{transform:scale(1.05)}
+    .product-tag{z-index:1}
+    .product-symbol{position:relative;z-index:1;background:#fff9}
+    .article-art{overflow:hidden;background:none!important}
+    .article-art>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .35s}
+    .article:hover .article-art>img{transform:scale(1.04)}
+    .article-art:before{position:absolute;z-index:1;background:#143a2f21;border:0;box-shadow:none;width:100%;height:100%;border-radius:0}
+    .article-type{z-index:2;padding:6px 8px;background:#ffffffdc;border-radius:4px}
+    .article-num{z-index:2;left:15px;top:10px}
+    .promotion-image{width:min(230px,36vw);height:300px;position:absolute;right:5%;top:50%;transform:translateY(-50%);border-radius:140px 140px 18px 18px;object-fit:cover;box-shadow:0 20px 45px #143d392c}
+    .service-photo-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:35px}
+    .service-photo{height:170px;position:relative;overflow:hidden;border-radius:10px;background:#e6f0ed}
+    .service-photo img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+    .service-photo:hover img{transform:scale(1.04)}
+    .service-photo span{position:absolute;left:10px;bottom:10px;padding:6px 9px;border-radius:5px;background:#fffE;color:var(--ink);font-size:9px;font-weight:700}
+    .review-note{font-size:9px;color:#8a9b97;margin:12px 0 0}
+    .reviews .review-note{grid-column:1/-1}
+    .fixed-actions{position:fixed;right:17px;bottom:18px;z-index:19;display:grid;gap:8px}
+    .fixed-action{min-width:48px;height:46px;padding:0 13px;display:flex;align-items:center;justify-content:center;gap:8px;border:1px solid #fff9;border-radius:99px;box-shadow:0 6px 20px #163f4b26;color:#fff;font-size:11px;font-weight:700}
+    .fixed-action.call{background:#087e77}.fixed-action.zalo{background:#087be0}.fixed-action.messenger{background:#087be0}.fixed-action.book{background:#aa7a22}
+    .music-toggle{position:fixed;right:17px;bottom:224px;z-index:19;border:1px solid #dfeae7;background:#fff;color:var(--ink);border-radius:99px;padding:9px 13px;box-shadow:0 6px 18px #163f4b16;font-size:10px;font-weight:700;cursor:pointer}
+    .pill-layer{position:absolute;top:0;bottom:0;left:48%;right:0;z-index:3;overflow:hidden;pointer-events:none}
+    .falling-pill{position:absolute;top:-50px;left:var(--left);width:30px;height:15px;border-radius:99px;background:linear-gradient(90deg,#fff 0 49%,#87cfc2 50%);box-shadow:0 5px 10px #173b4129;transform:rotate(var(--tilt));pointer-events:auto;cursor:pointer;animation:pill-fall var(--duration) linear var(--delay) infinite}
+    .falling-pill.blue{background:linear-gradient(90deg,#effffb 0 49%,#49a99b 50%)}
+    .falling-pill.red{background:linear-gradient(90deg,#fff 0 49%,#e27676 50%)}
+    .falling-pill.gold{background:linear-gradient(90deg,#fff8dc 0 49%,#e5bf61 50%)}
+    .falling-pill:hover{filter:brightness(1.08);animation-play-state:paused}
+    .falling-pill.shattered{animation:pill-pop .2s ease-out forwards}
+    @keyframes pill-pop{to{opacity:0;filter:brightness(1.5);transform:scale(1.3) rotate(25deg)}}
+    .pill-shard{position:fixed;z-index:31;width:17px;height:14px;border-radius:99px;background:linear-gradient(90deg,#fff 0 48%,#88cfc3 50%);pointer-events:none;animation:shard-away .75s ease-out forwards}
+    .pill-shard.blue{background:linear-gradient(90deg,#effffb 0 48%,#49a99b 50%)}
+    .pill-shard.red{background:linear-gradient(90deg,#fff 0 48%,#e27676 50%)}
+    .pill-shard.gold{background:linear-gradient(90deg,#fff8dc 0 48%,#e5bf61 50%)}
+    .pill-shard.left{clip-path:polygon(0 4%,100% 0,85% 100%,0 85%)}
+    .pill-shard.right{clip-path:polygon(15% 0,100% 10%,100% 100%,0 90%)}
+    @keyframes shard-away{to{opacity:0;transform:translate(var(--dx),var(--dy)) rotate(var(--turn))}}
+    @keyframes pill-fall{0%{top:-30px;transform:translateX(0) rotate(var(--tilt))}50%{transform:translateX(22px) rotate(calc(var(--tilt) + 60deg))}100%{top:105%;transform:translateX(-15px) rotate(calc(var(--tilt) + 150deg))}}
+    .burst-particle{position:fixed;z-index:31;pointer-events:none;font-size:19px;animation:particle-burst .9s ease-out forwards}
+    @keyframes particle-burst{0%{opacity:0;transform:translate(0,0) scale(.3)}15%{opacity:1}100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(1.25)}}
+    .pill-message{position:fixed;z-index:32;left:50%;bottom:82px;transform:translate(-50%,14px);padding:12px 18px;border:1px solid #ffffff90;border-radius:99px;background:#123f4e;color:white;box-shadow:0 10px 32px #123b4e40;font-size:12px;font-weight:600;opacity:0;pointer-events:none;transition:.3s;white-space:nowrap}
+    .pill-message.visible{opacity:1;transform:translate(-50%,0)}
+    .reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}
+    .reveal.zoom-in{transform:scale(.96)}
+    .reveal.visible{opacity:1;transform:none}
+    .counter{font-variant-numeric:tabular-nums}
+    .overlay{position:fixed;inset:0;background:#0d303c73;z-index:30;display:flex;justify-content:flex-end}
+    .overlay[hidden],.toast[hidden]{display:none}
+    .drawer{width:min(510px,100%);height:100%;background:#fff;overflow-y:auto;padding:25px 26px;box-shadow:-15px 0 40px #072d3429}
+    .drawer-head{display:flex;align-items:flex-start;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:17px}
+    .drawer-head h3{font-size:22px;margin:5px 0 0}
+    .drawer-close{border:0;background:#eff6f3;border-radius:50%;width:36px;height:36px;cursor:pointer;color:var(--ink);font-size:19px}
+    .empty{text-align:center;padding:75px 15px}.empty-icon{margin:auto;width:61px;height:61px;border-radius:50%;background:#eaf5f2;color:var(--teal);display:grid;place-items:center;font-size:23px}
+    .empty h4{margin:16px 0 6px}.empty p{color:var(--muted);font-size:12px}
+    .cart-lines{padding:8px 0}
+    .cart-line{display:grid;grid-template-columns:48px 1fr auto;gap:12px;align-items:center;padding:13px 0;border-bottom:1px solid var(--line)}
+    .cart-thumb{width:48px;height:48px;border-radius:8px;background:#eaf5f0;color:var(--teal);display:grid;place-items:center;font-size:22px}
+    .cart-line strong,.cart-line small{display:block}.cart-line strong{font-size:12px}.cart-line small{font-size:10px;color:var(--muted)}
+    .cart-total-line{font-size:11px}
+    .quantity{display:flex;align-items:center;gap:10px;margin-top:7px}.quantity button{border:1px solid var(--line);background:white;border-radius:4px;width:22px;height:22px;cursor:pointer}
+    .totals{padding:17px 0;border-bottom:1px solid var(--line);display:grid;gap:8px;font-size:11px}.totals div{display:flex;justify-content:space-between}.totals .grand{font-weight:800;font-size:14px;padding-top:8px;border-top:1px solid var(--line)}
+    .totals small{font-size:9px;color:var(--muted)}
+    .checkout{padding-top:18px}.checkout h4{margin-bottom:13px}
+    .checkout .button{width:100%}
+    .result{background:#ecf7f2;border-radius:6px;color:#276b5d;padding:10px;font-size:11px}
+    .toast{position:fixed;z-index:50;bottom:20px;left:50%;transform:translateX(-50%);background:#143f4d;color:white;padding:12px 18px;border-radius:8px;box-shadow:0 12px 30px #153d3d35;font-size:12px}
+    .mobile-nav{display:none}
+    @media(max-width:900px){
+      .nav-links{gap:14px}.nav-links a{font-size:11px}.nav-actions .primary{display:none}
+      .hero-layout{gap:20px}.hero-visual{transform:scale(.9);transform-origin:center}
+      .about{gap:42px}.service-grid{grid-template-columns:repeat(2,1fr)}.product-grid{grid-template-columns:repeat(2,1fr)}
+      .consult-layout{gap:30px}.faq-layout{gap:40px}            .footer-main{grid-template-columns:1.3fr 1fr 1fr;gap:28px}.footer-contact-card{grid-column:2/4}
+      .footer-brand-column{grid-row:span 2}
+    }
+    @media(max-width:650px){
+      .wrap{width:min(100% - 32px,480px)}
+      .top .wrap{justify-content:center}.top .top-address{display:none}
+      .nav{height:64px;gap:8px}.menu-toggle{display:block;margin-left:auto}
+      .nav-links{display:none;position:absolute;left:0;right:0;top:64px;padding:10px 20px 20px;background:white;border-bottom:1px solid var(--line);box-shadow:0 12px 20px #193c3510}
+      .nav-links.open{display:grid;gap:0}.nav-links a{padding:11px 5px;border-bottom:1px solid #f0f4f2;font-size:13px}
+      .nav-actions{margin-left:0}.cart-button{padding:9px}.cart-button .cart-label{display:none}
+      .hero{padding-top:49px}.hero-layout{display:flex;flex-direction:column;align-items:stretch;gap:0}
+      h1{font-size:42px;letter-spacing:-1.8px}.lead{font-size:14px}
+      .hero-visual{height:350px;width:100%;transform:none;margin-top:4px}
+      .portrait{transform:scale(.85);transform-origin:center bottom}
+      .float-one{left:0;top:51px}.float-two{right:0;bottom:50px}
+      .trust{display:grid;grid-template-columns:1fr 1fr;padding:18px 0;gap:15px}
+      .trust-item{gap:8px}.trust-item b{font-size:10px}.trust-item small{font-size:9px}
+      .section{padding:64px 0}.about{display:flex;flex-direction:column;gap:34px;align-items:stretch}
+      .about-visual{min-height:330px}.about-initial{font-size:270px}
+      h2{font-size:34px}
+      .center h2 br{display:none}
+      .service-grid{gap:10px}.service-card{padding:17px 14px;min-height:226px}.service-card h3{font-size:13px}
+      .section-head{align-items:flex-start;flex-direction:column;gap:0}.section-head>p{margin-top:0}
+      .product-tools{align-items:stretch;flex-direction:column}.search input{width:100%}.search{width:100%}
+      .product-grid{gap:10px}.product-art{height:145px}.product-info{padding:10px}.product-info h3{font-size:12px}
+      .shop-note{align-items:flex-start;text-align:center}
+      .consult{padding:58px 0}.consult-layout{grid-template-columns:1fr;gap:27px}.consult h2,.contact h2{font-size:35px}
+      .booking{padding:19px}
+      .article-grid{grid-template-columns:1fr;gap:13px}.article{display:grid;grid-template-columns:36% 64%}.article-art{height:100%;min-height:162px}
+      .article-body{padding:14px}.article-body h3{font-size:13px}
+      .reviews{grid-template-columns:1fr;gap:13px}.reviews-title{margin-bottom:4px}.review-card{padding:20px}.review-mini{margin:0}
+      .faq-layout{grid-template-columns:1fr;gap:22px}
+      .contact{padding:60px 0}.contact-layout{grid-template-columns:minmax(0,1fr);gap:26px}.contact-links{grid-template-columns:minmax(0,1fr)}
+      .contact-link{min-height:62px;padding:10px 12px}
+      .contact-link b{font-size:12px}
+      .map{height:245px}
+      .footer-main{grid-template-columns:1fr 1fr;gap:28px 17px;padding:42px 0 28px}
+      .footer-brand-column{grid-column:1/3;grid-row:auto}
+      .footer-contact{grid-column:1/3}
+      .footer-contact-card{padding:15px}
+      .footer-bottom{flex-direction:column;align-items:flex-start;gap:10px;padding:15px 0}
+      .footer-bottom-links{flex-wrap:wrap;gap:12px}
+      .medical-footer{text-align:left;padding:13px 16px}
+      .drawer{padding:20px 17px}.form-row{grid-template-columns:1fr 1fr;gap:8px}
+      .hero-visual{min-height:320px;height:320px;margin:20px 0}
+      .hero-visual:after{border-radius:16px}
+      .float-one{left:10px;top:auto;bottom:14px}.float-two{right:10px;bottom:14px}
+      .float-card{padding:8px 10px}
+      .campaign{padding:52px 0}
+      .campaign:before{background:linear-gradient(90deg,#fffcf4f2,#fffcf4d9),url("https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=900&q=80") center/cover}
+      .campaign-products{grid-template-columns:1fr 1fr}
+      .campaign-actions .button{flex:1}
+      .promotion-image{display:none}
+      .service-photo-strip{grid-template-columns:1fr 1fr}
+      .service-photo{height:130px}
+      .pill-layer{top:auto;bottom:0;left:0;right:0;height:320px}
+      .fixed-actions{left:50%;right:auto;bottom:8px;transform:translateX(-50%);width:min(380px,calc(100% - 20px));grid-template-columns:repeat(4,1fr);gap:5px}
+      .fixed-action{width:100%;min-width:0;height:40px;padding:0 3px;gap:4px;font-size:9px}
+      .fixed-action span{font-size:13px}
+      .music-toggle{right:9px;bottom:58px;padding:8px 10px;font-size:9px}
+      .pill-message{bottom:67px;width:max-content;max-width:90vw;text-align:center;white-space:normal;font-size:10px}
+      .product-art>img{object-position:center}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation-duration:.01ms!important;animation-iteration-count:1!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <div class="top"><div class="wrap"><span class="top-address">929 Trần Hưng Đạo, P. Chợ Quán, TP. Hồ Chí Minh</span><a href="tel:0976143411">HOTLINE &amp; ZALO&nbsp; 0976 143 411</a></div></div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="YenPharma trang chủ"><span class="brand-mark">Y<i>+</i></span><span>yen<span>pharma</span><small>CHĂM SÓC SỨC KHỎE CÓ TÂM</small></span></a>
+      <button class="menu-toggle" aria-label="Mở menu" onclick="toggleMenu()">☰</button>
+      <nav class="nav-links" id="navLinks"><a href="#about" onclick="closeMenu()">Về dược sĩ</a><a href="#services" onclick="closeMenu()">Dịch vụ</a><a href="#products" onclick="closeMenu()">Sản phẩm</a><a href="#campaign" onclick="closeMenu()">Ưu đãi 20/11</a><a href="#contact" onclick="closeMenu()">Liên hệ</a></nav>
+      <div class="nav-actions"><button class="cart-button" onclick="openCart()">♧ <span class="cart-label">Giỏ hàng</span><span class="cart-count" id="cartCount">0</span></button><a class="button primary" href="#book">Đặt lịch tư vấn&nbsp; ↗</a></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home"><div class="hero-grid"></div><div class="pill-layer" id="pillLayer" aria-label="Hiệu ứng viên thuốc tương tác"></div><div class="wrap hero-layout">
+      <div class="reveal"><div class="eyebrow"><i class="dot"></i> DƯỢC SĨ TƯ VẤN SỨC KHỎE</div><h1>Chăm sóc sức khỏe<br>bắt đầu từ <em>hiểu đúng.</em></h1><p class="lead">Lắng nghe điều bạn cần, chia sẻ kiến thức dược dễ hiểu và cùng bạn lựa chọn giải pháp chăm sóc sức khỏe phù hợp.</p>
+        <div class="person"><span class="avatar">Đ</span><span><stYenrong>Dược sĩ Đào Ngọc Hoàng Yến </strong><small>Tận tâm vì sức khỏe cộng đồng</small></span><span class="verified">✚</span></div>
+        <div class="hero-actions"><a class="button primary" href="#book">Đặt lịch tư vấn&nbsp; →</a><a class="button outline" href="https://zalo.me/0976143411" target="_blank" rel="noopener">◉&nbsp; Chat Zalo</a></div>
+        <a class="hero-phone" href="tel:0976143411"><i class="pulse"></i> Cần hỗ trợ ngay? <b>0976 143 411</b></a>
+        <div class="customer-count"><b class="counter" data-target="1200">0</b><span>+ lượt tư vấn sức khỏe</span><small>Số liệu minh họa — vui lòng cập nhật số liệu đã xác minh trước khi công bố.</small></div>
+      </div>
+      <div class="hero-visual reveal zoom-in"><img class="photo-hero" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Tư vấn sức khỏe trực tuyến qua điện thoại" fetchpriority="high"><span class="hero-photo-caption">Tư vấn tận tâm · Đồng hành mỗi ngày</span><div class="float-card float-one"><b>✚ &nbsp;Thông tin dễ hiểu</b><small>Chia sẻ kiến thức có trách nhiệm</small></div><div class="float-card float-two"><span class="stars">★★★★★</span><b>Chăm sóc bằng sự thấu hiểu</b><small>Vì sức khỏe gia đình bạn</small></div></div>
+    </div><div class="pill-message" id="pillMessage" role="status" aria-live="polite"></div></section>
+
+    <div class="wrap trust"><div class="trust-item"><i>✚</i><span><b>Kiến thức chuyên môn</b><small>Chia sẻ có trách nhiệm</small></span></div><div class="trust-item"><i>♡</i><span><b>Lắng nghe tận tâm</b><small>Tư vấn theo nhu cầu</small></span></div><div class="trust-item"><i>✓</i><span><b>Sản phẩm chọn lọc</b><small>Thông tin minh bạch</small></span></div><div class="trust-item"><i>◉</i><span><b>Luôn có kết nối</b><small>Zalo &amp; hotline hỗ trợ</small></span></div></div>
+
+    <section class="section" id="about"><div class="wrap about"><div class="about-visual reveal"><div class="about-stamp"><span><b>Y+</b><small>CHĂM SÓC<br>CÓ TÂM</small></span></div><div class="about-quote">“Hiểu đúng về sức khỏe là bước đầu tiên để chăm sóc bản thân tốt hơn.”</div></div><div class="reveal"><div class="eyebrow"><i class="dot"></i> ĐỒNG HÀNH CÙNG DƯỢC SĨ YẾN</div><h2>Lắng nghe tận tâm.<br><em>Chăm sóc bằng hiểu biết.</em></h2><p class="section-lead">Mỗi người có một nhu cầu sức khỏe khác nhau. Dược sĩ Đào Ngọc Hoàng Yến sẵn sàng lắng nghe, chia sẻ thông tin dược dễ hiểu và giúp bạn chủ động hơn trong hành trình chăm sóc bản thân.</p><div class="credentials"><div class="credential"><span class="credential-icon"><b>✓</b></span><span><strong>Tư vấn dựa trên nhu cầu của bạn</strong><small>Trao đổi rõ ràng, tôn trọng và bảo mật thông tin</small></span></div><div class="credential"><span class="credential-icon"><b>✓</b></span><span><strong>Đồng hành cùng cả gia đình</strong><small>Thuốc, dinh dưỡng và sản phẩm chăm sóc sức khỏe</small></span></div></div><a class="text-link" href="#book">Đặt lịch trò chuyện với dược sĩ Yến&nbsp; →</a></div></div></section>
+
+    <section class="section services-section" id="services"><div class="wrap"><div class="center"><div class="eyebrow"><i class="dot"></i> DỊCH VỤ TƯ VẤN</div><h2>Chăm sóc sức khỏe,<br><em>theo cách của bạn.</em></h2><p class="section-lead">Bắt đầu bằng một cuộc trò chuyện. Dược sĩ lắng nghe, cung cấp thông tin và giúp bạn chủ động hơn trong hành trình chăm sóc sức khỏe.</p></div><div class="service-grid">
+      <article class="service-card"><div class="service-top"><span class="service-icon">✚</span><span class="service-number">01</span></div><h3>Sử dụng thuốc an toàn</h3><p>Rà soát cách dùng, liều dùng và lưu ý khi phối hợp thuốc theo thông tin sức khỏe của bạn.</p><a href="#book">↗</a></article>
+      <article class="service-card"><div class="service-top"><span class="service-icon">♡</span><span class="service-number">02</span></div><h3>Chăm sóc sức khỏe thường ngày</h3><p>Định hướng chăm sóc ban đầu và nhận biết dấu hiệu cần gặp bác sĩ kịp thời.</p><a href="#book">↗</a></article>
+      <article class="service-card"><div class="service-top"><span class="service-icon">◈</span><span class="service-number">03</span></div><h3>Dinh dưỡng &amp; thực phẩm bổ sung</h3><p>Chọn sản phẩm phù hợp nhu cầu, độ tuổi và chế độ ăn uống của từng người.</p><a href="#book">↗</a></article>
+      <article class="service-card"><div class="service-top"><span class="service-icon">♡</span><span class="service-number">04</span></div><h3>Mẹ và bé</h3><p>Chia sẻ kiến thức chăm sóc dinh dưỡng, vitamin và sản phẩm thiết yếu cho gia đình.</p><a href="#book">↗</a></article>
+    </div><div class="service-photo-strip"><a class="service-photo" href="#book"><img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Dược sĩ trao đổi về chăm sóc sức khỏe" loading="lazy"><span>Tư vấn sức khỏe tận tâm</span></a><a class="service-photo" href="#products"><img src="https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Không gian nhà thuốc hiện đại" loading="lazy"><span>Nhà thuốc hiện đại</span></a><a class="service-photo" href="#products"><img src="https://images.unsplash.com/photo-1545389336-cf090694435e?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Người lớn tuổi tập luyện và chăm sóc sức khỏe" loading="lazy"><span>Sức khỏe tuổi vàng</span></a><a class="service-photo" href="#products"><img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Mẹ và bé cùng chăm sóc sức khỏe" loading="lazy"><span>Dinh dưỡng mẹ và bé</span></a><a class="service-photo" href="#journal"><img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Bữa ăn dinh dưỡng học đường cân bằng" loading="lazy"><span>Dinh dưỡng học đường</span></a></div><p class="disclaimer">Thông tin tư vấn mang tính tham khảo, không thay thế việc thăm khám, chẩn đoán hoặc chỉ định điều trị của bác sĩ.</p></div></section>
+
+    <section class="campaign" id="campaign"><div class="wrap campaign-wrap"><img class="promotion-image" src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&amp;fit=crop&amp;w=600&amp;q=85" alt="Thầy cô và học sinh trong lớp học" loading="lazy"><div class="campaign-head reveal"><span class="campaign-kicker">✦ &nbsp;CHƯƠNG TRÌNH TRI ÂN 20/11</span><h2>Tri Ân Người Lái Đò —<br><em>Chăm Sóc Sức Khỏe Thầy Cô</em></h2><p class="campaign-lead">Tặng sức khỏe — Gửi lời biết ơn nhân ngày Nhà giáo Việt Nam. Một món quà chăm sóc thiết thực để gửi lời tri ân đến thầy cô.</p><div class="campaign-offer"><span class="discount-badge">−20%</span><span><b>Ưu đãi mừng Ngày Nhà giáo Việt Nam</b><small>Freeship toàn quốc · Tư vấn miễn phí cùng Dược sĩ Đào Ngọc Hoàng Yến</small></span></div><div class="countdown" aria-label="Thời gian còn lại của chương trình"><div class="time-box"><b id="days">00</b><small>Ngày</small></div><div class="time-box"><b id="hours">00</b><small>Giờ</small></div><div class="time-box"><b id="minutes">00</b><small>Phút</small></div><div class="time-box"><b id="seconds">00</b><small>Giây</small></div></div><div class="campaign-actions"><a class="button button-gold" href="#products">Mua hàng ngay&nbsp; ↓</a><a class="button primary" href="https://zalo.me/0976143411" target="_blank" rel="noopener">Đăng ký tư vấn qua Zalo&nbsp; ↗</a><button class="button campaign-music" id="campaignMusicToggle" type="button" aria-pressed="false">♫ &nbsp;Nghe nhạc tri ân</button></div><p class="campaign-note">Nhạc nền nhẹ nhàng, chỉ phát khi bạn bật. Ưu đãi áp dụng cho chương trình tri ân đến ngày 20/11. Hỏi dược sĩ về sản phẩm, đối tượng sử dụng và điều kiện giao hàng trước khi đặt.</p></div><div class="campaign-products"><div class="campaign-chip"><b>Canxi mỗi ngày</b><small>Người trung niên · phụ nữ · người cao tuổi</small></div><div class="campaign-chip"><b>Vitamin cho mắt</b><small>Lutein · Zeaxanthin · Vitamin A · Omega 3</small></div><div class="campaign-chip"><b>Vitamin tổng hợp</b><small>Vitamin C · D3 · nhóm B</small></div><div class="campaign-chip"><b>Quà tặng sức khỏe</b><small>Combo mắt sáng · xương khỏe · đề kháng</small></div></div></div></section>
+
+    <section class="products" id="products"><div class="wrap"><div class="section-head"><div><div class="eyebrow"><i class="dot"></i> GIAN HÀNG SỨC KHỎE</div><h2>Món quà khỏe mạnh,<br><em>gửi trọn lòng biết ơn.</em></h2></div><p>Khám phá các nhóm sản phẩm tri ân 20/11. Dược sĩ hỗ trợ chọn lựa phù hợp nhu cầu và thông tin sử dụng.</p></div>
+      <div class="product-tools"><div class="filters" id="filters"><button class="filter active" data-category="all">Tất cả</button><button class="filter" data-category="calcium">Canxi</button><button class="filter" data-category="eyes">Vitamin cho mắt</button><button class="filter" data-category="multi">Vitamin tổng hợp</button><button class="filter" data-category="gift">Quà tặng</button></div><label class="search">⌕ <input id="search" type="search" placeholder="Tìm sản phẩm..." aria-label="Tìm sản phẩm"></label></div>
+      <div class="product-grid" id="productGrid"></div><p class="shop-note">✚ &nbsp;Hãy đọc kỹ thông tin nhãn và hướng dẫn trước khi sử dụng. <a class="text-link" href="https://zalo.me/0976143411" target="_blank" rel="noopener">Nhắn dược sĩ ngay →</a></p>
+    </div></section>
+
+    <section class="consult" id="book"><div class="wrap consult-layout"><div class="consult-copy"><div class="eyebrow eyebrow-light"><i class="dot"></i> BẠN ĐANG CÓ ĐIỀU BĂN KHOĂN?</div><h2>Một cuộc trò chuyện<br>có thể giúp bạn <em>an tâm hơn.</em></h2><p>Chia sẻ điều bạn đang quan tâm. Dược sĩ Yến sẽ liên hệ để lắng nghe và cùng bạn tìm hiểu thông tin phù hợp.</p><div class="consult-points"><span>✓ &nbsp;Riêng tư và tôn trọng</span><span>✓ &nbsp;Lịch hẹn linh hoạt</span><span>✓ &nbsp;Trao đổi qua Zalo hoặc điện thoại</span></div></div>
+      <form class="booking" id="bookingForm"><div class="booking-head"><span class="booking-icon">◷</span><span><strong>Đặt lịch tư vấn</strong><small>Dược sĩ Yến sẽ liên hệ xác nhận với bạn</small></span></div><label>Họ và tên<input name="name" required placeholder="Tên của bạn"></label><div class="form-row"><label>Số điện thoại<input name="phone" type="tel" required pattern="[0-9+(). -]{9,16}" placeholder="09xx xxx xxx"></label><label>Chủ đề<select name="topic"><option>Sử dụng thuốc</option><option>Dinh dưỡng</option><option>Thực phẩm bổ sung</option><option>Mẹ và bé</option><option>Khác</option></select></label></div><label>Điều bạn muốn trao đổi<textarea name="note" rows="3" placeholder="Chia sẻ ngắn gọn để dược sĩ chuẩn bị tốt hơn..."></textarea></label><button class="button primary" type="submit">Đăng ký nhận tư vấn&nbsp; →</button><div class="privacy">✚ &nbsp;Thông tin của bạn được sử dụng để liên hệ tư vấn.</div></form>
+    </div></section>
+
+    <section class="section journal-section" id="journal"><div class="wrap"><div class="section-head journal-head"><div><div class="eyebrow"><i class="dot"></i> GÓC SỨC KHỎE</div><h2>Kiến thức nhỏ,<br><em>chủ động chăm sóc.</em></h2></div><a class="text-link" href="mailto:contact@yenpharma.vn">Gợi ý chủ đề cho Dược sĩ Yến&nbsp; →</a></div><div class="article-grid">
+      <article class="article reveal"><a href="#contact" class="article-art"><img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Dược sĩ hướng dẫn sử dụng thuốc an toàn" loading="lazy"><span class="article-num">01</span><span class="article-type">SỬ DỤNG THUỐC</span></a><div class="article-body"><span class="article-category">SỬ DỤNG THUỐC</span><h3><a href="#contact">5 nguyên tắc giúp bạn dùng thuốc an toàn tại nhà</a></h3><div class="article-meta">Kiến thức dược&nbsp; <i></i> 5 phút đọc</div></div></article>
+      <article class="article reveal"><a href="#contact" class="article-art"><img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Bữa ăn giàu dinh dưỡng với rau củ tươi" loading="lazy"><span class="article-num">02</span><span class="article-type">DINH DƯỠNG</span></a><div class="article-body"><span class="article-category">DINH DƯỠNG</span><h3><a href="#contact">Vitamin và khoáng chất: bổ sung thế nào cho hợp lý?</a></h3><div class="article-meta">Dinh dưỡng gia đình&nbsp; <i></i> 7 phút đọc</div></div></article>
+      <article class="article reveal"><a href="#contact" class="article-art"><img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Gia đình nhiều thế hệ cùng quan tâm chăm sóc sức khỏe" loading="lazy"><span class="article-num">03</span><span class="article-type">SỨC KHỎE GIA ĐÌNH</span></a><div class="article-body"><span class="article-category">SỨC KHỎE GIA ĐÌNH</span><h3><a href="#contact">Tủ thuốc gia đình nên có gì và cần bảo quản ra sao?</a></h3><div class="article-meta">Chăm sóc tại nhà&nbsp; <i></i> 4 phút đọc</div></div></article>
+    </div><p class="article-note">Nội dung sức khỏe được biên soạn để tham khảo, không thay thế lời khuyên từ chuyên gia đang trực tiếp theo dõi bạn.</p></div></section>
+
+    <section class="section"><div class="wrap reviews"><div class="reviews-title"><div class="eyebrow"><i class="dot"></i> LỜI CHIA SẺ</div><h2>Điều quý nhất<br>là <em>sự an tâm.</em></h2><p>Mỗi cuộc trò chuyện là một cơ hội để lắng nghe và sẻ chia kiến thức sức khỏe.</p></div><article class="review-card"><div class="quote">“</div><div class="review-stars">★★★★★</div><blockquote>“Thông tin sức khỏe dễ hiểu giúp tôi tự tin hơn khi trao đổi với gia đình và nhân viên y tế.”</blockquote><div class="review-author"><span class="review-avatar">KH</span><span><strong>Khách hàng</strong><small>Phản hồi minh họa</small></span></div></article><div><article class="review-card review-mini"><div class="review-stars">★★★★★</div><blockquote>“Được lắng nghe kỹ và hướng dẫn tìm hiểu thành phần trước khi lựa chọn vitamin.”</blockquote><div class="review-author"><span class="review-avatar">KH</span><span><strong>Khách hàng</strong><small>Phản hồi minh họa</small></span></div></article></div><p class="review-note">Nội dung đánh giá hiện là minh họa giao diện; vui lòng thay bằng phản hồi thật đã được khách hàng đồng ý trước khi công bố.</p></div></section>
+
+    <section class="section faq-section" id="faq"><div class="wrap faq-layout"><div><div class="eyebrow"><i class="dot"></i> CÂU HỎI THƯỜNG GẶP</div><h2>Giải đáp trước<br><em>khi bạn bắt đầu.</em></h2><p class="section-lead">Nếu chưa tìm thấy câu trả lời, Dược sĩ Yến luôn sẵn sàng lắng nghe.</p><a class="text-link" href="https://zalo.me/0976143411" target="_blank" rel="noopener">Hỏi qua Zalo&nbsp; ↗</a></div><div class="faq-list" id="faqList">
+      <div class="faq-item"><button class="faq-question" aria-expanded="true"><span><i>01</i>Tôi có thể tư vấn online bằng cách nào?</span><b>−</b></button><p class="faq-answer">Bạn đặt lịch ngay trên trang hoặc nhắn Zalo 0976 143 411. Dược sĩ sẽ xác nhận khung giờ phù hợp. Hãy chuẩn bị danh sách thuốc đang dùng và thông tin sức khỏe liên quan.</p></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span><i>02</i>Tư vấn online có thay thế việc khám bác sĩ không?</span><b>+</b></button><p class="faq-answer" hidden>Không. Tư vấn dược giúp bạn hiểu cách sử dụng thuốc và chăm sóc sức khỏe phù hợp; không thay thế chẩn đoán, kê đơn hay thăm khám trực tiếp. Trường hợp khẩn cấp, hãy đến cơ sở y tế gần nhất.</p></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span><i>03</i>Làm sao để đặt sản phẩm trong chương trình 20/11?</span><b>+</b></button><p class="faq-answer" hidden>Chọn sản phẩm muốn tìm hiểu rồi gửi yêu cầu qua Zalo. Dược sĩ sẽ xác nhận giá, điều kiện ưu đãi, phí giao hàng và thông tin sử dụng trước khi bạn quyết định đặt.</p></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span><i>04</i>Freeship và ưu đãi 20% áp dụng thế nào?</span><b>+</b></button><p class="faq-answer" hidden>Chương trình tri ân 20/11 hiển thị ưu đãi giảm 20% và freeship toàn quốc. Vui lòng xác nhận phạm vi sản phẩm, thời hạn và điều kiện áp dụng với dược sĩ khi tư vấn.</p></div>
+    </div></div></section>
+
+    <section class="contact" id="contact"><div class="wrap contact-layout"><div class="contact-copy"><div class="eyebrow eyebrow-light"><i class="dot"></i> KẾT NỐI VỚI DƯỢC SĨ YẾN </div><h2>Sức khỏe của bạn<br>bắt đầu từ <em>một lời hỏi.</em></h2><p>Đừng ngần ngại kết nối khi bạn cần thêm thông tin hoặc muốn đặt lịch trò chuyện.</p><div class="contact-links"><a class="contact-link" href="tel:0976143411"><span class="contact-icon">☎</span><small>HOTLINE</small><b>0976 143 411</b><span>↗</span></a><a class="contact-link" href="mailto:contact@yenpharma.vn"><span class="contact-icon">✉</span><small>EMAIL</small><b>contact@yenpharma.vn</b><span>↗</span></a></div></div><div class="map"><span class="map-pin"><b>Y+</b></span><span class="map-label"><b>YenPharma</b><small>929 Trần Hưng Đạo</small></span><a class="map-address" href="https://maps.google.com/?q=929+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o+Ph%C6%B0%E1%BB%9Dng+Ch%E1%BB%A3+Qu%C3%A1n+TP+H%E1%BB%93+Ch%C3%AD+Minh" target="_blank" rel="noopener"><span><b>929 Trần Hưng Đạo, Phường Chợ Quán</b><small>Thành phố Hồ Chí Minh</small></span><span class="direction">Chỉ đường&nbsp; ↗</span></a></div></div></section>
+  </main>
+  <footer>
+    <div class="wrap footer-main">
+      <div class="footer-brand-column">
+        <a class="brand footer-brand" href="#home" aria-label="YenPharma, về đầu trang"><span class="brand-mark">Y<i>+</i></span><span>yen<span>pharma</span><small>CHĂM SÓC SỨC KHỎE CÓ TÂM</small></span></a>
+        <p class="footer-about">Đồng hành cùng bạn và gia đình bằng kiến thức dược dễ hiểu, sự lắng nghe tận tâm và những lựa chọn chăm sóc sức khỏe phù hợp.</p>
+        <div class="footer-tagline"><i></i> Tận tâm vì sức khỏe cộng đồng</div>
+        <div class="footer-social"><a href="https://zalo.me/0976143411" target="_blank" rel="noopener" aria-label="Nhắn tin YenPharma qua Zalo">Zalo</a><a href="https://www.facebook.com/messages/new/" target="_blank" rel="noopener" aria-label="Nhắn tin qua Facebook">f</a><a href="mailto:contact@yenpharma.vn" aria-label="Gửi email YenPharma">✉</a></div>
+      </div>
+      <nav class="footer-col" aria-label="Khám phá website"><strong>KHÁM PHÁ</strong><a href="#about">Về dược sĩ</a><a href="#services">Dịch vụ tư vấn</a><a href="#products">Sản phẩm sức khỏe</a><a href="#journal">Góc sức khỏe</a></nav>
+      <nav class="footer-col" aria-label="Hỗ trợ khách hàng"><strong>HỖ TRỢ KHÁCH HÀNG</strong><a href="#faq">Câu hỏi thường gặp</a><a href="#campaign">Ưu đãi tri ân 20/11</a><a href="#book">Đặt lịch tư vấn</a><a href="#contact">Địa chỉ nhà thuốc</a></nav>
+      <div class="footer-contact-card">
+        <div class="footer-col"><strong>KẾT NỐI VỚI DƯỢC SĨ YẾN</strong>
+          <a class="footer-contact-link" href="tel:0976143411"><span class="footer-contact-icon">☎</span><span><small>HOTLINE</small><b>0976 143 411</b></span></a>
+          <a class="footer-contact-link" href="mailto:contact@yenpharma.vn"><span class="footer-contact-icon">✉</span><span><small>EMAIL</small><b>contact@yenpharma.vn</b></span></a>
+          <a class="footer-contact-link" href="https://maps.google.com/?q=929+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o+Ph%C6%B0%E1%BB%9Dng+Ch%E1%BB%A3+Qu%C3%A1n+TP+H%E1%BB%93+Ch%C3%AD+Minh" target="_blank" rel="noopener"><span class="footer-contact-icon">⌖</span><span><small>ĐỊA CHỈ</small><b>929 Trần Hưng Đạo, P. Chợ Quán, TP.HCM</b></span></a>
+          <a class="footer-cta" href="#book">Đặt lịch tư vấn miễn phí&nbsp; →</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap footer-bottom"><span>© <span id="currentYear"></span> YenPharma · Dược sĩ Đào Ngọc Hoàng Yếnt</span><div class="footer-bottom-links"><a href="#faq">Câu hỏi thường gặp</a><a href="#contact">Liên hệ</a><a href="#home">Về đầu trang ↑</a></div></div>
+    <div class="medical-footer">Thông tin trên website chỉ mang tính tham khảo, không thay thế việc thăm khám, chẩn đoán hoặc chỉ định điều trị của bác sĩ. Không tự ý dùng thuốc kê đơn; trường hợp khẩn cấp vui lòng đến cơ sở y tế gần nhất.</div>
+  </footer>
+
+  <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false">🎵 Bật nhạc</button>
+  <nav class="fixed-actions" aria-label="Liên hệ nhanh"><a class="fixed-action call" href="tel:0976143411"><span>☎</span>Gọi điện</a><a class="fixed-action zalo" href="https://zalo.me/0976143411" target="_blank" rel="noopener"><span>Z</span>Zalo</a><a class="fixed-action messenger" href="https://www.facebook.com/messages/new/" target="_blank" rel="noopener"><span>✉</span>Messenger</a><a class="fixed-action book" href="#book"><span>＋</span>Đặt lịch</a></nav>
+
+  <div class="overlay" id="overlay" hidden onclick="overlayClick(event)"><aside class="drawer"><div class="drawer-head"><div><div class="eyebrow"><i class="dot"></i> YENPHARMA</div><h3>Giỏ hàng (<span id="drawerCount">0</span>)</h3></div><button class="drawer-close" onclick="closeCart()" aria-label="Đóng">×</button></div><div id="cartContents"></div></aside></div>
+  <div class="toast" id="toast" hidden></div>
+
+  <script>
+    const products=[
+      {id:"ca-trung-nien",name:"Canxi cho người trung niên",category:"Canxi",type:"calcium",description:"Lựa chọn bổ sung canxi phù hợp với từng người.",price:0,icon:"Ca",image:"photo-1607619056574-7b8d3ee536b2"},
+      {id:"ca-phu-nu",name:"Canxi cho phụ nữ",category:"Canxi",type:"calcium",description:"Tư vấn lựa chọn theo độ tuổi và nhu cầu dinh dưỡng.",price:0,icon:"Ca",image:"photo-1550572017-edd951b55104"},
+      {id:"ca-cao-tuoi",name:"Canxi cho người cao tuổi",category:"Canxi",type:"calcium",description:"Hỏi dược sĩ trước khi dùng cùng thuốc đang sử dụng.",price:0,icon:"Ca",image:"photo-1581578731548-c64695cc6952"},
+      {id:"lutein",name:"Lutein & Zeaxanthin",category:"Vitamin cho mắt",type:"eyes",description:"Sản phẩm bổ sung dành cho nhu cầu chăm sóc mắt.",price:0,icon:"◉",image:"photo-1517841905240-472988babdf9"},
+      {id:"vitamin-a",name:"Vitamin A",category:"Vitamin cho mắt",type:"eyes",description:"Tư vấn cách dùng và lượng bổ sung phù hợp.",price:0,icon:"A",image:"photo-1559757148-5c350d0d3c56"},
+      {id:"omega-eye",name:"Omega 3 cho mắt",category:"Vitamin cho mắt",type:"eyes",description:"Tìm hiểu thành phần, nguồn gốc và hướng dẫn sử dụng.",price:0,icon:"Ω",image:"photo-1571781926291-c477ebfd024b"},
+      {id:"vitamin-c",name:"Vitamin C",category:"Vitamin tổng hợp",type:"multi",description:"Bổ sung vitamin C theo nhu cầu dinh dưỡng.",price:0,icon:"C",image:"photo-1607619056574-7b8d3ee536b2"},
+      {id:"vitamin-d3",name:"Vitamin D3",category:"Vitamin tổng hợp",type:"multi",description:"Hỏi dược sĩ về liều dùng và đối tượng phù hợp.",price:0,icon:"D",image:"photo-1550572017-edd951b55104"},
+      {id:"vitamin-b",name:"Vitamin B Complex",category:"Vitamin tổng hợp",type:"multi",description:"Tham khảo thông tin sản phẩm trước khi sử dụng.",price:0,icon:"B",image:"photo-1584308666744-24d5c474f2ae"},
+      {id:"gift-eyes",name:"Combo mắt sáng",category:"Quà tặng sức khỏe",type:"gift",description:"Gợi ý quà sức khỏe; thành phần được xác nhận khi tư vấn.",price:0,icon:"♡",image:"photo-1517841905240-472988babdf9"},
+      {id:"gift-bones",name:"Combo xương khớp khỏe",category:"Quà tặng sức khỏe",type:"gift",description:"Dược sĩ hỗ trợ chọn sản phẩm theo nhu cầu người nhận.",price:0,icon:"✚",image:"photo-1581578731548-c64695cc6952"},
+      {id:"gift-immunity",name:"Combo tăng đề kháng",category:"Quà tặng sức khỏe",type:"gift",description:"Món quà chăm sóc sức khỏe cho thầy cô và gia đình.",price:0,icon:"✦",image:"photo-1498837167922-ddd27525d352"}
+    ];
+    let cart=[],category="all",toastTimer;
+    try{const saved=localStorage.getItem("yenpharma-cart");cart=saved?JSON.parse(saved):[];if(!Array.isArray(cart))cart=[]}catch{cart=[]}
+    cart=cart.filter(item=>products.some(product=>product.id===item.id));
+    const money=n=>new Intl.NumberFormat("vi-VN").format(n)+"₫";
+    function renderProducts(){
+      const q=document.getElementById("search").value.trim().toLocaleLowerCase("vi");
+      const list=products.filter(p=>(category==="all"||p.type===category)&&(`${p.name} ${p.category}`).toLocaleLowerCase("vi").includes(q));
+      document.getElementById("productGrid").innerHTML=list.length?list.map(p=>`<article class="product-card"><div class="product-art"><img src="https://images.unsplash.com/${p.image}?auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Ảnh minh họa ${p.name}" loading="lazy"><span class="product-tag">ƯU ĐÃI 20%</span><span class="product-symbol">${p.icon}</span></div><div class="product-info"><span class="product-category">${p.category}</span><h3>${p.name}</h3><p>${p.description}</p><div class="card-foot"><span class="price"><strong>Liên hệ nhận giá</strong><small>Freeship · Tư vấn miễn phí</small></span><button class="add" onclick="addToCart('${p.id}')" aria-label="Chọn ${p.name} để được tư vấn">+</button></div></div></article>`).join(""):'<p>Không tìm thấy sản phẩm phù hợp.</p>';
+    }
+    function saveCart(){try{localStorage.setItem("yenpharma-cart",JSON.stringify(cart))}catch{}document.getElementById("cartCount").textContent=cart.reduce((n,x)=>n+x.quantity,0);if(!document.getElementById("overlay").hidden)renderCart()}
+    function addToCart(id){const line=cart.find(x=>x.id===id);if(line)line.quantity++;else cart.push({id,quantity:1});saveCart();showToast("Đã thêm sản phẩm vào giỏ hàng.")}
+    function updateQty(id,step){const line=cart.find(x=>x.id===id);if(line)line.quantity+=step;cart=cart.filter(x=>x.quantity>0);saveCart()}
+    function renderCart(){
+      const content=document.getElementById("cartContents"),count=cart.reduce((n,x)=>n+x.quantity,0);
+      document.getElementById("drawerCount").textContent=count;
+      if(!cart.length){content.innerHTML='<div class="empty"><div class="empty-icon">♧</div><h4>Giỏ hàng đang trống</h4><p>Chọn sản phẩm phù hợp để bắt đầu chăm sóc sức khỏe.</p><button class="button primary" onclick="closeCart();document.getElementById(\'products\').scrollIntoView()">Khám phá sản phẩm →</button></div>';return}
+      content.innerHTML=`<div class="cart-lines">${cart.map(x=>{const p=products.find(y=>y.id===x.id);return `<div class="cart-line"><span class="cart-thumb">${p.icon}</span><span><strong>${p.name}</strong><small>Giá xác nhận qua Zalo</small><span class="quantity"><button onclick="updateQty('${p.id}',-1)" aria-label="Giảm số lượng">−</button>${x.quantity}<button onclick="updateQty('${p.id}',1)" aria-label="Tăng số lượng">+</button></span></span><strong class="cart-total-line">× ${x.quantity}</strong></div>`}).join("")}</div><div class="totals"><div><span>Ưu đãi</span><b>Giảm 20%</b></div><div><span>Giao hàng</span><b>Freeship toàn quốc*</b></div><div class="grand"><span>Giá sản phẩm</span><b>Xác nhận qua Zalo</b></div><small>*Hỏi dược sĩ về điều kiện áp dụng và giá cuối cùng.</small></div><form class="checkout" id="checkoutForm"><h4>Thông tin nhận hàng</h4><label>Họ và tên<input name="name" required autocomplete="name"></label><div class="form-row"><label>Số điện thoại<input name="phone" type="tel" required pattern="[0-9+(). -]{9,16}" autocomplete="tel"></label><label>Email<input name="email" type="email" autocomplete="email"></label></div><label>Địa chỉ nhận hàng<input name="address" required autocomplete="street-address"></label><label>Ghi chú<textarea name="note" rows="2"></textarea></label><button class="button primary" type="submit">Gửi yêu cầu tư vấn &amp; đặt hàng →</button><p class="privacy">Dược sĩ sẽ xác nhận sản phẩm, giá và giao hàng qua Zalo.</p></form>`;
+      document.getElementById("checkoutForm").addEventListener("submit",submitOrder);
+    }
+    function openCart(){document.getElementById("overlay").hidden=false;document.body.style.overflow="hidden";renderCart()}
+    function closeCart(){document.getElementById("overlay").hidden=true;document.body.style.overflow=""}
+    function overlayClick(e){if(e.target.id==="overlay")closeCart()}
+    function showToast(message){const el=document.getElementById("toast");el.textContent=message;el.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.hidden=true,2600)}
+    function toggleMenu(){document.getElementById("navLinks").classList.toggle("open")}
+    function closeMenu(){document.getElementById("navLinks").classList.remove("open")}
+    document.getElementById("search").addEventListener("input",renderProducts);
+    document.getElementById("filters").addEventListener("click",e=>{const button=e.target.closest("button[data-category]");if(!button)return;category=button.dataset.category;document.querySelectorAll(".filter").forEach(x=>x.classList.toggle("active",x===button));renderProducts()});
+    document.getElementById("faqList").addEventListener("click",e=>{const button=e.target.closest(".faq-question");if(!button)return;const answer=button.nextElementSibling,open=button.getAttribute("aria-expanded")==="true";button.setAttribute("aria-expanded",String(!open));button.querySelector("b").textContent=open?"+":"−";answer.hidden=open});
+    document.getElementById("bookingForm").addEventListener("submit",e=>{e.preventDefault();const d=new FormData(e.currentTarget),text=`Xin chào Dược sĩ Đào Ngọc Hoàng Yến, tôi muốn đặt lịch tư vấn.%0A%0AHọ tên: ${encodeURIComponent(d.get("name"))}%0ASố điện thoại: ${encodeURIComponent(d.get("phone"))}%0AChủ đề: ${encodeURIComponent(d.get("topic"))}%0ANội dung: ${encodeURIComponent(d.get("note")||"Chưa cung cấp")}`;window.open(`https://zalo.me/0976143411?text=${text}`,"_blank","noopener");showToast("Đã mở Zalo để gửi yêu cầu tư vấn.")});
+    function submitOrder(e){e.preventDefault();const d=new FormData(e.currentTarget),items=cart.map(x=>`${products.find(p=>p.id===x.id).name} x${x.quantity}`).join(", "),text=`Xin chào YenPharma, tôi muốn đặt hàng.%0A%0AHọ tên: ${encodeURIComponent(d.get("name"))}%0ASố điện thoại: ${encodeURIComponent(d.get("phone"))}%0AĐịa chỉ: ${encodeURIComponent(d.get("address"))}%0ASản phẩm: ${encodeURIComponent(items)}%0AGhi chú: ${encodeURIComponent(d.get("note")||"Không")}`;window.open(`https://zalo.me/0976143411?text=${text}`,"_blank","noopener");showToast("Đã mở Zalo. Vui lòng gửi tin nhắn để xác nhận đơn.");}
+    document.getElementById("currentYear").textContent=String(new Date().getFullYear());
+    renderProducts();saveCart();
+    document.querySelectorAll(".service-card,.service-photo,.campaign-chip,.trust-item,.review-card,.faq-item").forEach((el,index)=>{el.classList.add("reveal");if(index%3===1)el.classList.add("zoom-in")});
+    const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("visible");revealObserver.unobserve(entry.target)}}),{threshold:.12});
+    function observeReveals(){document.querySelectorAll(".reveal:not(.visible)").forEach(el=>revealObserver.observe(el))}
+    observeReveals();
+    const countObserver=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(!entry.isIntersecting)return;const el=entry.target,target=Number(el.dataset.target)||0,start=performance.now(),duration=1500;function step(now){const progress=Math.min((now-start)/duration,1);el.textContent=Math.floor(target*(1-Math.pow(1-progress,3))).toLocaleString("vi-VN");if(progress<1)requestAnimationFrame(step)}requestAnimationFrame(step);countObserver.unobserve(el)})},{threshold:.6});
+    document.querySelectorAll(".counter").forEach(el=>countObserver.observe(el));
+    const pillLayer=document.getElementById("pillLayer"),pillKinds=["white","blue","red","gold"];
+    if(!window.matchMedia("(prefers-reduced-motion: reduce)").matches){
+      for(let i=0;i<12;i++){
+        const pill=document.createElement("button"),kind=pillKinds[i%pillKinds.length];
+        pill.type="button";pill.className=`falling-pill ${kind==="white"?"":kind}`;pill.style.setProperty("--left",`${6+i*8}%`);pill.style.setProperty("--delay",`${-i*1.35}s`);pill.style.setProperty("--duration",`${10+(i%5)*2}s`);pill.style.setProperty("--tilt",`${i%2?25:-20}deg`);pill.setAttribute("aria-label","Chạm để khám phá thông điệp sức khỏe");pillLayer.appendChild(pill);
+        pill.addEventListener("click",event=>{
+          const x=event.clientX,y=event.clientY,flash=document.createElement("span");flash.className="burst-particle";flash.textContent="✦";flash.style.left=`${x-10}px`;flash.style.top=`${y-10}px`;flash.style.fontSize="35px";flash.style.color="#f2d879";document.body.appendChild(flash);setTimeout(()=>flash.remove(),1000);
+          ["left","right"].forEach((side,index)=>{const shard=document.createElement("span");shard.className=`pill-shard ${kind} ${side}`;shard.style.left=`${x-16+index*14}px`;shard.style.top=`${y-7}px`;shard.style.setProperty("--dx",`${(index?1:-1)*(38+Math.random()*18)}px`);shard.style.setProperty("--dy",`${-15+Math.random()*35}px`);shard.style.setProperty("--turn",`${index?135:-135}deg`);document.body.appendChild(shard);setTimeout(()=>shard.remove(),800)});
+          ["♥","✚","♡","✦","＋","♥"].forEach((symbol,index)=>{const particle=document.createElement("span"),angle=index*Math.PI/3,radius=55+Math.random()*30;particle.className="burst-particle";particle.textContent=symbol;particle.style.left=`${x}px`;particle.style.top=`${y}px`;particle.style.color=["#de7777","#55a99b","#d8aa59"][index%3];particle.style.setProperty("--dx",`${Math.cos(angle)*radius}px`);particle.style.setProperty("--dy",`${Math.sin(angle)*radius}px`);document.body.appendChild(particle);setTimeout(()=>particle.remove(),1000)});
+          pill.classList.add("shattered");pill.disabled=true;setTimeout(()=>pill.remove(),220);
+          const message=document.getElementById("pillMessage");message.textContent="Chăm sóc sức khỏe mỗi ngày cùng Dược sĩ Đào Ngọc Hoàng Yến";message.classList.add("visible");clearTimeout(window.pillMessageTimer);window.pillMessageTimer=setTimeout(()=>message.classList.remove("visible"),3000);
+        });
+      }
+    }
+    function updateCountdown(){
+      const now=new Date();let year=now.getFullYear(),deadline=new Date(year,10,21,0,0,0);
+      if(now>=deadline)deadline=new Date(year+1,10,21,0,0,0);
+      let remaining=Math.max(0,deadline-now);
+      const values={days:Math.floor(remaining/86400000),hours:Math.floor(remaining%86400000/3600000),minutes:Math.floor(remaining%3600000/60000),seconds:Math.floor(remaining%60000/1000)};
+      Object.entries(values).forEach(([id,value])=>{document.getElementById(id).textContent=String(value).padStart(2,"0")});
+    }
+    updateCountdown();setInterval(updateCountdown,1000);
+    let audioContext=null,musicTimer=null,noteIndex=0,musicEnabled=false;
+    async function setMusicEnabled(enabled){
+      const generalButton=document.getElementById("musicToggle"),campaignButton=document.getElementById("campaignMusicToggle");
+      if(musicEnabled===enabled)return;
+      if(!enabled){
+        musicEnabled=false;clearInterval(musicTimer);musicTimer=null;
+        const context=audioContext;audioContext=null;if(context)await context.close();
+        [generalButton,campaignButton].forEach(button=>{button.setAttribute("aria-pressed","false")});
+        generalButton.textContent="🎵 Bật nhạc";campaignButton.textContent="♫  Nghe nhạc tri ân";return;
+      }
+      const AudioContextClass=window.AudioContext||window.webkitAudioContext;
+      if(!AudioContextClass){showToast("Trình duyệt này chưa hỗ trợ phát nhạc.");return}
+      audioContext=new AudioContextClass();
+      try{if(audioContext.state==="suspended")await audioContext.resume()}catch(error){audioContext=null;showToast("Không thể phát nhạc. Hãy thử lại trong trình duyệt.");return}
+      musicEnabled=true;
+      const melody=[392,440,523.25,440,392,329.63,349.23,392,440,392,349.23,329.63,293.66,329.63,392,329.63];
+      const playNote=()=>{
+        if(!audioContext)return;
+        const start=audioContext.currentTime,frequency=melody[noteIndex%melody.length],accent=noteIndex%4===0;noteIndex++;
+        [1,2].forEach((partial,index)=>{
+          const oscillator=audioContext.createOscillator(),gain=audioContext.createGain();
+          oscillator.type=index?"sine":"triangle";oscillator.frequency.value=frequency*partial;
+          gain.gain.setValueAtTime(.0001,start);gain.gain.exponentialRampToValueAtTime(index?0.004:(accent?0.018:0.012),start+.025);gain.gain.exponentialRampToValueAtTime(.0001,start+1.35);
+          oscillator.connect(gain);gain.connect(audioContext.destination);oscillator.start(start);oscillator.stop(start+1.4);
+        });
+      };
+      playNote();musicTimer=setInterval(playNote,440);
+      [generalButton,campaignButton].forEach(button=>button.setAttribute("aria-pressed","true"));
+      generalButton.textContent="🔇 Tắt nhạc";campaignButton.textContent="🔇 Tắt nhạc tri ân";
+    }
+    document.getElementById("musicToggle").addEventListener("click",()=>setMusicEnabled(!musicEnabled));
+    document.getElementById("campaignMusicToggle").addEventListener("click",()=>setMusicEnabled(!musicEnabled));
+  </script>
+</body>
+</html>
